@@ -39,7 +39,7 @@ param parPolicyAssignmentParameterOverrides = {
         value: 'security@yourcompany.com'
       }
       ascExportResourceGroupName: {
-        value: 'rg-alz-asc-${parLocations[0]}'
+        value: 'rg-security-defender-${parLocations[0]}'
       }
       ascExportResourceGroupLocation: {
         value: parLocations[0]
@@ -89,3 +89,4 @@ param parPolicyAssignmentParameterOverrides = {
     }
   }
 }
+
